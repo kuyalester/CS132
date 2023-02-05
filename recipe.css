@@ -1,0 +1,111 @@
+/*
+	Name: Lester E. Lascano
+	Section: (F)
+
+	Assignment Description: This assignment tests our understanding of basic HTML and CSS. We will create several files related to a recipe web site for a fictional pie company named Granny's Pies.
+
+	File's Content:
+	The css file for Grandma's Lemon Meringue Pie Webpage.
+
+	Extra features completed
+
+	1. Background
+	2. Favicon
+	3. Pie Bullet
+	4. Wide Headings
+	5. Tight Heading Background
+*/
+
+h1, h2{
+	color: #A4A400;
+	font-family: "Lucida Sans Unicode";
+	background-color: #F0F0F0;
+	text-decoration: underline;
+	letter-spacing: .25em;
+}
+
+h1{
+	text-align: center;	
+	font-size: 22pt;
+	font-weight: bold;
+}
+
+h2{
+	display: inline;
+	text-align: left;
+	font-size: 18pt;
+	font-weight: normal;
+}
+
+body{
+	background-color: white;
+	color: #404040;
+	font-size: 11pt;
+	font-family: Georgia;
+	text-align: justify;
+	background-image: url(https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg);
+}
+
+ul li{
+	list-style-image: url(https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif);
+}
+
+.tbps-tooltip{
+	text-decoration: underline;
+}
+
+.tsp-tooltip{
+	text-decoration: underline;
+}
+
+.tbps-tooltip .tbps-tooltiptext {
+	visibility: hidden;
+	position: absolute;
+
+}
+
+.tsp-tooltip .tsp-tooltiptext {
+	visibility: hidden;
+	position: absolute;
+	
+}
+
+.tbps-tooltip:hover .tbps-tooltiptext {
+	visibility: visible;
+	color: #A4A400;
+	background-color: #F0F0F0;
+	font-size: 15pt;
+	
+}
+
+.tsp-tooltip:hover .tsp-tooltiptext {
+	visibility: visible;
+	color: #A4A400;
+	background-color: #F0F0F0;
+	font-size: 15pt;
+	
+}
+
+.cake{
+	text-decoration: line-through;
+}
+
+.comments{
+	margin: 20px 20px 20px 50px;
+	font-style: italic;
+	background-color: #FFFFA8;
+}
+
+.decription{
+	background-color: white;
+	color: #404040;
+	font-family: Georgia;
+} 
+
+.copyright{
+	font-family: monospace;
+}
+
+.links{
+	color: #A4A400;
+}
